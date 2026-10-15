@@ -1,0 +1,23 @@
+[project]
+name = "cross-validation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Rohit", email = "rohit4u94@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.40",
+    "fastapi>=0.110",
+    "mcp<2",
+    "openai>=3.29.0",
+    "uvicorn>=0.29",
+]
+
+[project.scripts]
+cross-validation = "cross_validation:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"

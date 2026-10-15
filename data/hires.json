@@ -1,0 +1,42 @@
+[
+  {
+    "candidate_id": "C-1001",
+    "name": "Priya Sharma",
+    "start_date": "2026-11-02",
+    "work_location": "San Francisco",
+    "work_email": "priya.sharma@example.com",
+    "manager": "Daniel Kim"
+  },
+  {
+    "candidate_id": "C-1042",
+    "name": "Marcus Lee",
+    "start_date": "2026-11-02",
+    "work_location": "San Francisco",
+    "work_email": "marcus.lee@example.com",
+    "manager": "Ana Torres"
+  },
+  {
+    "candidate_id": "C-1077",
+    "name": "Sofia Rossi",
+    "start_date": "2026-11-16",
+    "work_location": "London",
+    "work_email": null,
+    "manager": "Ben Carter"
+  },
+  {
+    "candidate_id": "C-1099",
+    "name": "Aiden Walker",
+    "start_date": "2026-11-16",
+    "work_location": "New York",
+    "work_email": "aiden.walker@example.com",
+    "manager": "Grace Okafor"
+  },
+  {
+    "candidate_id": "C-1120",
+    "name": "Lena Fischer",
+    "start_date": "2026-11-09",
+    "work_location": "London",
+    "work_email": "lena.fischer@example.com",
+    "manager": "Ben Carter"
+  }
+]

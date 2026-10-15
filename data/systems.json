@@ -1,0 +1,145 @@
+{
+  "workday": {
+    "C-1001": {
+      "name": "Priya  Sharma ",
+      "start_date": "11/02/2026",
+      "work_location": "San Francisco, CA",
+      "work_email": "Priya.Sharma@example.com",
+      "manager": "Daniel Kim",
+      "background_check": "cleared"
+    },
+    "C-1042": {
+      "name": "Marcus Lee",
+      "start_date": "2026-11-02",
+      "work_location": "New York",
+      "work_email": "marcus.lee@example.com",
+      "manager": "Anna Torres",
+      "background_check": "cleared"
+    },
+    "C-1077": {
+      "name": "Sofia Rossi",
+      "start_date": "2026-11-16",
+      "work_location": "London",
+      "work_email": "sofia.rossi@example.com",
+      "manager": "Ben Carter",
+      "background_check": "cleared"
+    },
+    "C-1099": {
+      "name": "Aiden Walker",
+      "start_date": "2026-11-16",
+      "work_location": "NYC",
+      "work_email": "aiden.walker@example.com",
+      "manager": "Grace Okafor",
+      "background_check": "cleared"
+    },
+    "C-1120": {
+      "name": "Lena Fischer",
+      "start_date": "2026-11-09",
+      "work_location": "London",
+      "work_email": "lena.fischer@example.com",
+      "manager": "Ben Carter",
+      "background_check": "pending"
+    },
+    "C-9001": {
+      "name": "Jordan Blake",
+      "start_date": "2026-11-09",
+      "work_location": "New York",
+      "work_email": "jordan.blake@example.com",
+      "manager": "Grace Okafor",
+      "background_check": "cleared"
+    }
+  },
+  "okta": {
+    "C-1001": {
+      "name": "Priya Sharma",
+      "work_email": "priya.sharma@example.com",
+      "status": "ACTIVE"
+    },
+    "C-1042": {
+      "name": "Marcus Lee",
+      "work_email": "marcus.lee@example.com",
+      "status": "ACTIVE"
+    },
+    "C-1099": {
+      "__simulate": "timeout"
+    },
+    "C-1120": {
+      "name": "Lena Fischer",
+      "work_email": "lena.fischer@example.com",
+      "status": "ACTIVE"
+    },
+    "C-9001": {
+      "name": "Jordan Blake",
+      "work_email": "jordan.blake@example.com",
+      "status": "ACTIVE"
+    }
+  },
+  "expoit": {
+    "C-1001": {
+      "name": "Priya Sharma",
+      "work_location": "SF",
+      "start_date": "2026-11-02",
+      "ship_by": "2026-10-28",
+      "form_submitted": true
+    },
+    "C-1042": {
+      "name": "Marcus Lee",
+      "work_location": "New York",
+      "start_date": "2026-11-02",
+      "ship_by": "2026-11-05",
+      "form_submitted": false
+    },
+    "C-1077": {
+      "name": "Sofia Rossi",
+      "work_location": "London",
+      "start_date": "2026-11-16",
+      "ship_by": "2026-11-11",
+      "form_submitted": true
+    },
+    "C-1099": {
+      "name": "Aiden Walker",
+      "work_location": [
+        "New York"
+      ],
+      "start_date": "2026-11-16",
+      "ship_by": "2026-11-12",
+      "form_submitted": true
+    },
+    "C-1120": {
+      "name": "Lena Fischer",
+      "work_location": "London",
+      "start_date": "2026-11-09",
+      "ship_by": "2026-11-04",
+      "form_submitted": true
+    },
+    "C-9001": {
+      "name": "Jordan Blake",
+      "work_location": "New York",
+      "start_date": "2026-11-09",
+      "ship_by": "2026-11-04",
+      "form_submitted": true
+    }
+  },
+  "cohort": {
+    "C-1001": {
+      "name": "Priya Sharma",
+      "start_date": "2026-11-02",
+      "work_location": "San Francisco"
+    },
+    "C-1042": {
+      "name": "Marcus Lee",
+      "start_date": "2026-11-02",
+      "work_location": "San Francisco"
+    },
+    "C-1099": {
+      "name": "Aiden Walker",
+      "start_date": "2026-11-16",
+      "work_location": "New York"
+    },
+    "C-1120": {
+      "name": "Lena Fischer",
+      "start_date": "2026-11-15",
+      "work_location": "London"
+    }
+  }
+}

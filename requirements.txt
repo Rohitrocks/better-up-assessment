@@ -1,0 +1,6 @@
+# Core validator + monitor: standard library only (Python 3.10+).
+# Optional extras (each is independent):
+anthropic>=0.40    # --triage with real Claude (otherwise rules-based fallback)
+mcp<2              # src/mcp_server.py  (mcp 2.x renamed FastMCP -> MCPServer; code targets 1.x)
+fastapi>=0.110     # src/api.py thin HTTP wrapper for n8n / Zapier
+uvicorn>=0.29

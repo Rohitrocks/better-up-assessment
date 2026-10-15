@@ -1,0 +1,26 @@
+{
+  "tools": [
+    {
+      "name": "validate_hire",
+      "description": "Validate one hire's records across Ashby (source), Workday, Okta, ExpoIT and the cohort tracker, including deadline gates. Returns PASS/REVIEW/BLOCKED with issues, owners and suggested actions. Read-only and idempotent.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "person_id": {"type": "string", "description": "Stable candidate/employee id, e.g. C-1042"},
+          "as_of": {"type": "string", "description": "Optional evaluation date YYYY-MM-DD; defaults to the configured date"}
+        },
+        "required": ["person_id"]
+      },
+      "annotations": {"readOnlyHint": true, "idempotentHint": true, "destructiveHint": false, "openWorldHint": false}
+    },
+    {
+      "name": "list_open_exceptions",
+      "description": "List all hires and orphan (off-cycle) records whose status is not PASS, with error and warning counts. Read-only.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {"as_of": {"type": "string", "description": "Optional evaluation date YYYY-MM-DD"}}
+      },
+      "annotations": {"readOnlyHint": true, "idempotentHint": true, "destructiveHint": false, "openWorldHint": false}
+    }
+  ]
+}
